@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+.catHead
+{
+	margin-left: 0px;
+	margin-top:5px; 
+	width: 90%;
+	margin: auto;
+	padding: 20PX;
+	
+}
+.list
+{	background-color: #3c8dbc;
+	padding:20px;
+	margin-top:5px;
+}
+
+.list li
+{
+	background-color: white;
+	margin-left: 10px;
+}
+.list li:last-of-type
+{
+	margin:0;
+	padding: 0
+}
+.block
+{
+
+	margin-top: 20px;
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	margin: 0;
+	z-index: 9999999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	padding: 50px;
+}
+.block div
+{
+	padding: 20px;
+	margin: auto;
+	width: 50%;
+	background-color: white;
+}
+.block .f
+{
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.block .f1
+{
+	margin: 0;
+	float: left;
+	width: 50%;
+}
+.block .f1 button
+{
+	margin-top: 20px;
+	width: 50%;
+	background-color: #3c8dbc;
+	color: white;
+	border:none;
+	padding: 5px;
+}
+.block .f1 input
+{
+	display: inline-block;
+	width: 100%;
+}
+.block .f1 select
+{
+	display: inline-block;
+	width: 100%;
+}
+.block div
+{
+	position: relative;
+}
+.block .c
+{
+	background-color: darkorange;
+	color: white;
+	border:none;
+	padding: 5px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	z-index: 999999999;
+}
+
+
+
